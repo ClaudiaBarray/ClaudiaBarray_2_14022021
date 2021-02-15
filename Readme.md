@@ -1,4 +1,4 @@
-Parcour Développeur Web, OpenClassrooms
+Parcours Développeur Web, OpenClassrooms
 
 Projet 2 Transformez une maquette en site web
 
