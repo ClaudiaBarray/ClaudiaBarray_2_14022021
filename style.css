@@ -1,35 +1,268 @@
+/*Main*/
 
-
-
-
-
-
-
-
-footer { 
-    display: flex; 
-    background-color: #f2f2f2;
-    padding: 2rem; 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.block-footer { 
-    display: flex; 
-    flex-direction: column;  
-    padding-left: 1rem; 
-    flex: 3; 
+body{
+    font-family: 'Raleway-Regular', sans-serif;
 }
 
-.block-footer .name { 
-    font-size: 1rem; 
-    margin-bottom: 2rem; 
+main,.footer {
+    max-width: 1170px;
+    margin: auto;
+}
+
+main, .middle-hosting{
+    margin-top: 20px;
+}
+
+
+/*Header géneral*/
+
+header, .header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header{
+    flex: 1;
+}
+
+header, .head{
+    margin: 20px 40px;
+}
+
+/* Navigation header*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav li{
+    padding: 0 30px;
+    line-height: 40px;
+}
+
+nav li a:hover{
+    display: block;
+    margin-top: -1px;
+    color: #0065fc;
+    border-top: 2px solid #0065fc;
+}
+
+/*Inscription*/
+
+.inscribe{
+    display: flex;
+    align-items: center;
+}
+
+.inscribe a{
+    font-weight: bold;
+    color: #0065fc;
+}
+
+/*Texte Introduction*/
+
+#introduce{
+    display: flex;
+    flex-direction: column;
+}
+
+#introduce h1{
+    font-size: 1.25em;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+
+#introduce p{
+    margin-top: 4px;
+    font-size: 0.90em;
+    font-weight: lighter;
+}
+
+/*Espace recherche */
+
+label{
+    display: block;
+    line-height: 40px;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    margin-top: 20px;
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+}
+i.fa-map-marker-alt{
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #f2f2f2;
+    color: black;
+    border-radius: 10px 0 0 10px;
+}
+
+i.fa-search {
+    width: 40px;
+    margin-left: -45px;
+    color: #fff;
+}
+
+input{
+    display: block;
+    padding-left: 10px;
+    font-weight: bold;
+    color: black;
+    font-size: 0.90em;
+    border: none;
+}
+
+button{
+    padding: 0 15px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #fff;
+    background: #0065fc;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+/*Filtres*/
+
+.filters{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.filters p{
+    margin: 8px 20px 0 0;
+    line-height: 50px;
     font-weight: bold;
 }
 
-.block-footer a { 
-    padding-bottom: 1rem; 
-    font-weight: 500; 
+.filters i{
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    padding-top: 12px;
+    text-align: center;
+    background: #deebff;
+    border-radius: 35px;
 }
 
-.space-footer {
-    flex: 1;
+.filters ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
 }
+
+.filters li{
+    display: flex;
+    align-items: center;
+    border: 2px solid #f2f2f2;
+    border-radius: 40px;
+    background: none;
+    font-weight: 600;
+    font-size: 0.90em;
+    padding-right: 20px;             /*filtres, changement d'apparence au survol*/
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+}
+
+.filters li:hover{
+    color: #f2f2f2;
+}
+
+.filters li::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: #f2f2f2;
+    z-index: -1;
+    transition: 0.8s;
+   
+}
+
+.filters li::before{
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+
+.filters li:hover::before{
+    height: 180%;
+}
+
+/*Icons, police size*/
+
+h2{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+h3{
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+
+p{
+    font-size: 0.75em;
+    font-weight: lighter;
+}
+
+a{
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+}
+
+img{
+    object-fit: cover;
+}
+
+i {
+    color: #0065fc
+}
+
+i.fa-star {
+    font-size: 10px;
+}
+
+i.no-star {
+    color: #d9d9d9;
+}
+
+i.fa-info{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    padding-top: 2px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+
+
+
