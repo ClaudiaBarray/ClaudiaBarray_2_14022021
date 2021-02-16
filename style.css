@@ -40,7 +40,7 @@ header, .concept{
 
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     font-weight: lighter;
     font-size: 16px;
@@ -52,7 +52,7 @@ nav ul{
 }
 
 nav li{
-    padding: 0 30px;
+    padding: 0 40px;
     line-height: 40px;
 }
 
@@ -67,7 +67,10 @@ nav li a:hover{
 
 .inscribe{
     display: flex;
-    align-items: center;
+    align-items:center;
+    
+    
+    
 }
 
 .inscribe a{
