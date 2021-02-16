@@ -268,6 +268,53 @@ i.fa-info{
     border-radius: 50%;
 }
 
+/* All cards*/
+
+.cards{
+    margin-bottom:20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #d8d6d6;
+    transition: all 300ms ease-in-out;
+}
+                                                  /*  carte d’hébergement ou d’activité devra 
+                                                  être cliquable dans son intégralité.*/
+.cards:hover{
+    transform: translate(0,-7px);
+    box-shadow: 0px 25px 15px -15px rgba(0,0,0,.2);
+}
+
+.cards span{
+    font-weight: bold;
+}
+
+/* Section Hébergements*/
+
+.category{
+   margin-left: 15px;
+}
+
+.middle-hosting{
+    display: flex;
+    justify-content: space-between;
+}
+
+#hosting{
+    max-width: 780px;
+    border-radius: 10px;
+    background: #f2f2f2;
+    flex:1;
+}
+
+#hosting h2, p.more{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.hosting{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 
 
