@@ -22,11 +22,12 @@ main, .middle-hosting{
 h2{
     font-size: 1.2em;
     margin-bottom: 10px;
+    font-weight: 500;
 }
 
 h3{
     margin-top: 5px;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 p{
@@ -270,7 +271,7 @@ i.fa-info{
 
 .cards{
     margin-bottom:20px;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 1px 1px 5px #d8d6d6;
     transition: all 300ms ease-in-out;
 }
@@ -293,14 +294,14 @@ i.fa-info{
 
 .middle-hosting{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
 }
 
 #hosting{
     max-width: 780px;
     border-radius: 10px;
     background: #f2f2f2;
-    flex: 1;
+    justify-content: space-between;
 }
 
 #hosting h2, p.more{
@@ -344,6 +345,8 @@ i.fa-info{
     width: 80%;
     margin-top: 30px;
     margin-left: 30px;
+   
+    
 }
 
 #populars i.fa-chart-line{
@@ -394,6 +397,7 @@ i.fa-info{
 .activity h3{
     margin-left: 15px;
     line-height: 3em;
+    
 }
 
 .activity .middle{
@@ -468,9 +472,11 @@ footer li{
     .middle-hosting{
     flex-wrap: wrap-reverse;
     } 
+    
     .hosting, .populars, .activity{
-    justify-content: space-around;
-    }  
+        justify-content: space-around;
+        }  
+
     #hosting{
     max-width: 100%;
     background:#fff;
@@ -487,7 +493,8 @@ footer li{
     .populars{
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+   
+    
     }
     #activity h2{
     margin-left: 20px;
@@ -502,17 +509,18 @@ footer li{
 
     .hosting img, 
     .activity img{
-        width: 330px;
+        width: 400px;
     }
 }
 
 @media only screen and (max-width:768px) {
     .populars{
         flex-direction: column;
+        
     }
     .hosting img,
     .activity img {
-        width: 260px;
+        width: 400px;
     }
 }
 
@@ -577,25 +585,25 @@ footer li{
 
     .hosting img, .activity img{
         height: 150px;
-        width: 320px;
+        width: 300px;
     }
     .activity .activityl img,
     .activity .activitym img,
     .activity .activityms img,
     .activity .activitys img,
     .activity .activityss img {
-        max-height: 200px;
+        max-height: 300px;
     }
     
 }
 
 @media only screen and (max-width:480px){
-    .recherche,
-    footer ul{
+
+    .recherche,footer ul{
         width: 260px;
     }
-    ;hosting img,
-    .activity img{
+    .hosting img,
+    .activity img {
         width: 300px;
     }
 }
