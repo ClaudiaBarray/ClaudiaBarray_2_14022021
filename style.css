@@ -70,11 +70,14 @@ nav{
     align-items: center;
     font-weight: lighter;
     font-size: 16px;
+    margin: 40px;
 }
 
 nav ul{
     display: flex;
     list-style-type: none;
+    width: auto;
+    margin: auto;
 }
 
 nav li{
@@ -317,7 +320,7 @@ i.fa-info{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-evenly;
-    margin: auto;
+    margin:auto;
 }
 
 .hosting .cards{
