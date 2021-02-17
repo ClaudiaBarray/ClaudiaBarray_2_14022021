@@ -372,6 +372,8 @@ i.fa-info{
     max-width: 270px;
     padding: 5px;
     background: rgb(250, 250, 250);
+    
+    
 }
 .populars .cards a{
     display: flex;
@@ -387,8 +389,10 @@ i.fa-info{
 .populars .category{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content:space-between;
     padding-right: 15px;
+    
+    
 }
 
 /*Section Activités*/
@@ -588,35 +592,15 @@ footer li{
     i.fa-search{
         margin-left: -15px;
     }
-    .hosting, .populars, .activity {
-        flex-direction: column;
-        align-content: center;
-    }
-
-    .hosting img, .activity img{
+    
+    
+     .activity img{
         height: 150px;
-        width: 300px;
-    }
-    .activity .activityl img,
-    .activity .activitym img,
-    .activity .activityms img,
-    .activity .activitys img,
-    .activity .activityss img {
-        max-height: 300px;
     }
     
-}
+}    
 
-@media only screen and (max-width:480px){
 
-    .recherche,footer ul{
-        width: 260px;
-    }
-    .hosting img,
-    .activity img {
-        width: 300px;
-    }
-}
 
 
 
