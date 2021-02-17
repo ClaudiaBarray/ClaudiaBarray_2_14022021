@@ -62,6 +62,10 @@ header, .concept{
     margin: 20px 40px;
 }
 
+.logo{
+    margin-top: 30px;
+}
+
 /* Navigation header*/
 
 nav{
@@ -543,6 +547,7 @@ footer li{
 
     .logo{
         margin-left: 20px;
+        margin-top: 0;
     }
     nav{
         width:100%;
