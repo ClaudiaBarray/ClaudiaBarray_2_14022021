@@ -60,10 +60,12 @@ header, .header{
 
 header, .concept{
     margin: 20px 40px;
+    margin-left: 0;
 }
 
 .logo{
     margin-top: 30px;
+    
 }
 
 /* Navigation header*/
@@ -482,6 +484,13 @@ footer li{
     header {
         justify-content: space-between;
     }
+    .header{
+        margin-left: 25px;
+    }
+    .concept{
+        margin-left: 25px;
+    }
+    
     .middle-hosting{
     flex-wrap: wrap-reverse;
     } 
@@ -523,6 +532,12 @@ footer li{
     .hosting img, 
     .activity img{
         width: 400px;
+    }
+    .header{
+        margin-left: 25px;
+    }
+    .concept{
+        margin-left: 25px;
     }
     .populars {
         flex-direction: row;
