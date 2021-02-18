@@ -528,7 +528,8 @@ footer li{
 
 @media only screen and (max-width:768px) {
     .populars{
-        flex-direction: column;
+        display: grid;
+        width: 400px;
         
     }
     .hosting img,
@@ -593,7 +594,10 @@ footer li{
         margin-left: -15px;
     }
     
-    
+    .populars img {
+        display: flex;
+        
+    }
      .activity img{
         height: 150px;
     }
