@@ -145,6 +145,8 @@ label{
     margin-top: 20px;
     border: 1px solid #f2f2f2;
     border-radius: 10px;
+    
+    
 }
 i.fa-map-marker-alt{
     width: 40px;
@@ -297,12 +299,13 @@ i.fa-info{
 /* Section Hébergements*/
 
 .category{
-   margin-left: 15px;
-}
+    margin-left: 15px;
+ }
 
 .middle-hosting{
     display: flex;
     justify-content:space-between;
+    
 }
 
 #hosting{
@@ -361,6 +364,8 @@ i.fa-info{
 
 #populars i.fa-chart-line{
     color: black;
+    
+    
 }
 
 .populars{
@@ -370,7 +375,7 @@ i.fa-info{
 }
 
 .populars .cards{
-    max-width: 270px;
+    width: 270px;
     padding: 5px;
     background: rgb(250, 250, 250);
     
@@ -387,14 +392,14 @@ i.fa-info{
     border-radius: 10px 0 0 10px;
 }
 
-.populars .category{
+.populars .category {
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content: space-between;
     padding-right: 15px;
-    
-    
 }
+
+
 
 /*Section Activités*/
 
@@ -413,12 +418,12 @@ i.fa-info{
     line-height: 3em;
     
 }
-
 .activity .middle{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 
 .activity img{
     height: 100%;
@@ -514,8 +519,12 @@ footer li{
     .populars{
     flex-direction: row;
     flex-wrap: wrap;
-   
-    
+
+    }
+    #populars i.fa-chart-line{
+        position: absolute;
+        margin-top: 30px;
+        right: 20px;
     }
     #activity h2{
     margin-left: 20px;
@@ -541,13 +550,16 @@ footer li{
     .populars {
         flex-direction: row;
     }
+    
+    
+    
 }
 
 @media only screen and (max-width:768px) {
     .populars img{
         display: flex;
         flex-direction: row;
-        width: 400px;
+        
         
     }
     .hosting img,
@@ -561,7 +573,7 @@ footer li{
 @media only screen and (max-width:670px){
 
     p{
-        font-size: 0.85em;
+        font-size: 0.90em;
         display:flex
     }
 
@@ -616,17 +628,31 @@ footer li{
         margin-left: -15px;
     }
     
-    .populars img {
-        display: flex;
+    .populars .cards{
+        width: 400px;
+        padding: 5px;
+        background: rgb(250, 250, 250);
         
         
     }
-     .activity img{
+
+    
+    
+    
+    .populars img{
+        height: 120px;
+        width: 150%;
+        max-width: 150px;
+        border-radius: 10px 0 0 10px;
+    }
+    
+    
+    .activity img{
         height: 150px;
         width: 350px;
     }
     .hosting img{
-        width: 350px;
+        width: 370px;
     }
 
     .footer{
